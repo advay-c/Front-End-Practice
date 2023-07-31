@@ -2,14 +2,21 @@
     .back-to-amazon {
         color: rgb(0, 133, 133);
     }
+
+    .back-to-amazon:hover{
+      color: red;
+    }
+
     .title {
         font-weight: bold;
         font-size: 22px;
     }
+
     .stock {
         color: rgb(0, 118, 0);
         font-weight: bold;
     }
+
     .cart {
       background-color: rgb(255, 216, 0);
       border: none;
@@ -18,7 +25,17 @@
       width: 90px;
       margin-right: 6px;
       cursor: pointer;
+      transition: opacity 0.15s;
     }
+
+    .cart:hover {
+      opacity: 0.8;
+    }
+
+    .cart:active {
+      opacity: 0.5;
+    }
+
     .buy {
       background-color: rgb(255, 164, 28);
       border: none;
@@ -26,6 +43,15 @@
       height: 27px;
       width: 90px;
       cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .buy:hover {
+      opacity: 0.7;
+    }
+
+    .buy:active {
+      opacity: 0.5;
     }
 </style>
 
