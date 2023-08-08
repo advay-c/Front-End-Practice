@@ -40,6 +40,7 @@ input {
     padding-bottom: 13px;
     padding-left: 20px;
     border-radius: 0;
+    font-size: 15px;
 }
 
 .destination {
@@ -53,6 +54,7 @@ input {
     padding-left: 20px;
     border-radius: 0;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .Request-now {
@@ -69,9 +71,4 @@ input {
     border: none;
     display: inline-block;
     padding: 12px;
-}
-
-
-.later {
-    display: inline-block;
 }
