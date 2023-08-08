@@ -27,5 +27,38 @@ input {
 
 .title {
     font-family: Arial;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.location {
+    font-family: Arial;
+    background-color: rgb(240, 240, 240);    opacity: 90%;
+    display: block;
+    border: none;
+    padding-right: 90px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    border-radius: 0;
+}
+
+.destination {
+    font-family: Arial;
+    background-color: rgb(240, 240, 240);    opacity: 90%;
+    display: block;
+    border: none;
+    padding-right: 90px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.Request-now {
+    margin-right: 20px;
+}
+
+.later {
+    display: inline-block;
 }
