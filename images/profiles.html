@@ -10,6 +10,8 @@
         object-fit: cover;
         object-position: right;
         margin-bottom: 0px;
+        display: inline-block;
+
       }
 
       .name {
@@ -20,6 +22,7 @@
         margin-bottom: 4px;
         margin-left: 6px;
         font-size: 18px;
+        display: inline-block;
       }
 
       .profiles {
@@ -27,6 +30,7 @@
         padding-left: 2px;
         padding-bottom: 10px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
       }
 
       .mutuals {
@@ -34,6 +38,7 @@
         margin-top: 0px;
         color: rgb(100, 100, 100);
         margin-left: 6px;
+        display: inline-block;
       }
 
       .friend {
@@ -47,7 +52,6 @@
         padding-right: 27px;
         border-radius: 4px;
         margin-left: 6px;
-        display: inline-block;
       }
         </style>
     </head>
@@ -67,32 +71,35 @@
        Add Friend
      </button>
         </div>
-        <img class="monkey" src="cat.jpg">
+        <div class="profiles">
+          <img class="monkey" src="cat.jpg">
 
-        <p class="name">
-         Frank
-       </p>
+          <p class="name">
+           Frank
+         </p>
+  
+         <p class="mutuals">
+           3 mutual friends
+         </p>
+  
+         <button class="friend">
+           Add Friend
+         </button>
+        </div>
+        <div class="profiles">
+          <img class="monkey" src="dog.jpg">
 
-       <p class="mutuals">
-         3 mutual friends
-       </p>
-
-       <button class="friend">
-         Add Friend
-       </button>
-
-       <img class="monkey" src="dog.jpg">
-
-       <p class="name">
-        Sam
-      </p>
-
-      <p class="mutuals">
-        0 mutual friends
-      </p>
-
-      <button class="friend">
-        Add Friend
-      </button>
+          <p class="name">
+           Sam
+         </p>
+   
+         <p class="mutuals">
+           0 mutual friends
+         </p>
+   
+         <button class="friend">
+           Add Friend
+         </button>
+        </div>
     </body>
 </html>
