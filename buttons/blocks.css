@@ -31,12 +31,23 @@
     border-radius: 30px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     display: block;
-    margin-left: 350px;
+    margin-left: 500px;
+    margin-bottom: 30px;
   }
 
   .google {
-    width:200px;
-    display: block;
+    width:250px;
     margin-bottom: 2px;
-    margin-left: 500px;
   }
+
+.lucky {
+    margin-left: 12px;
+    border: none;
+    padding: 12px;
+}
+
+.search {
+    border: none;
+    padding: 14px;
+}
+
