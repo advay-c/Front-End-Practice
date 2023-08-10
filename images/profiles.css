@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    object-position: right;
+    object-position: center;
     margin-bottom: 0px;
     display: inline-block;
 
@@ -32,6 +32,14 @@
     margin-top: 0px;
     color: rgb(100, 100, 100);
     margin-left: 6px;
+    display: inline-block;
+  }
+
+  .parrot {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    width: 35px;
     display: inline-block;
   }
 
