@@ -14,9 +14,6 @@
         margin-left: 12px;
       }
 
-      .video-title {
-        width: 300px;
-      }
 
       .video-preview {
         width: 300px;
@@ -27,27 +24,28 @@
 
       .channel-picture {
         display: inline-block;
+        width: 50px;
       }
 
       .video-info {
         display: inline-block;
+        width: 200px;
       }
-
     </style>
   </head>
   <body>
-    <input class="search-bar" type="textbox"
+    <input class="search-bar" type="text"
     placeholder="Search">
 
     <div class="video-preview">
       <div>
         <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
       </div>
-      <div class="video-info">
+      <div>
         <div class="channel-picture">
-          <img src="/channel-pictures/channel-1.jpg">
+          <img src="channel-pictures/channel-1.jpg">
         </div>
-        <div>
+        <div class="video-info">
           <p class="video-title">
             Talking Tech and AI with Google CEO Sundar 
             Pichai!
