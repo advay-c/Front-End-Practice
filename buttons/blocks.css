@@ -1,0 +1,57 @@
+.name {
+    display: block;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.Email {
+    display: block;
+    margin-right: 25px;
+}
+
+.survey  {
+    display: inline-block;
+    width: 200px;
+}
+
+.Yes,
+.No {
+    display: inline-block;
+}
+
+.text {
+    margin-top: 25px;
+    font-size: 17px;
+    width: 500px;
+    border:none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 30px;
+  }
+
+  .allign {
+    text-align: center;
+  }
+
+  .google {
+    width:250px;
+    margin-bottom: 2px;
+  }
+
+.lucky {
+    margin-left: 12px;
+    border: none;
+    padding: 12px;
+}
+
+.search {
+    border: none;
+    padding: 14px;
+}
+

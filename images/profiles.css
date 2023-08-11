@@ -1,0 +1,57 @@
+.monkey {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0px;
+    display: inline-block;
+
+  }
+
+  .name {
+    font-family: arial;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .profiles {
+    width: 200px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .mutuals {
+    font-family: arial;
+    margin-top: 0px;
+    color: rgb(100, 100, 100);
+    margin-left: 6px;
+    display: inline-block;
+  }
+
+  .parrot {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    width: 35px;
+    display: inline-block;
+  }
+
+  .friend {
+    font-family: arial;
+    font-size: 16px;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 23px;
+    padding-right: 27px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }

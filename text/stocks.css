@@ -1,0 +1,32 @@
+p {
+    font-family:  Arial;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.price {
+    font-size: 35px;
+    color:black;
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+.usd {
+    font-size: 25px;
+    color: rgb(117, 117, 117);
+}
+
+.stats {
+    font-size: 20px;
+    color: rgb(24, 128, 56);
+}
+
+.hours {
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+}
+
+.loss {
+    font-size: 20px;
+    color: rgb(235, 39, 39);
+}
