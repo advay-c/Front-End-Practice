@@ -79,7 +79,10 @@
   
   .right-section {
     background-color: lightblue;
-    width: 200px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .upload-icon {
@@ -96,6 +99,7 @@
 
   .current-user-picture {
     height: 32px;
+    border-radius: 16px;
   }
 
 
