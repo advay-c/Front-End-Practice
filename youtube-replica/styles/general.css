@@ -5,7 +5,8 @@ p {
   }
 
 body {
-  font-family: Roboto, Arial;
+  /*all these are inherited styles */
+    font-family: Roboto, Arial;
     margin: 0;
     padding-top: 80px;
     padding-left: 96px;
